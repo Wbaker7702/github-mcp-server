@@ -1174,6 +1174,11 @@ Possible options:
 
 <summary>Users</summary>
 
+- **get_user_activity** - Get user activity
+  - `page`: Page number for pagination (min 1) (number, optional)
+  - `perPage`: Results per page for pagination (min 1, max 100) (number, optional)
+  - `username`: The GitHub username to get activity for. (string, required)
+
 - **search_users** - Search users
   - `order`: Sort order (string, optional)
   - `page`: Page number for pagination (min 1) (number, optional)
